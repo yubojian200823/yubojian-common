@@ -14,7 +14,7 @@ public class DateUtil {
 		
 		Calendar c = Calendar.getInstance();
 		
-	//	
+	//	第二次提交
 		long l3 = (long) (Math.random() * (l2-l1 +1 )+l1);
 		c.setTimeInMillis(l3);
 		
