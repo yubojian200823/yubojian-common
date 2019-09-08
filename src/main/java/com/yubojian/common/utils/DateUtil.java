@@ -4,10 +4,6 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class DateUtil {
-	
-	
-	
-	
 	//返回一个在某个时间段的随机日期
 	
 	public static Date randomDate(Date minDate ,Date maxDate) {

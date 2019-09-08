@@ -5,8 +5,6 @@ import java.util.Random;
 
 public class StringUtil {
 	
-
-	
 	/**
 	 * 
 	 * @Title: toHtml   
