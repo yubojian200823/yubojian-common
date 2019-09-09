@@ -6,10 +6,8 @@ import java.util.Random;
 public class StringUtil {
 	
 	/**
-	 * 
 	 * @Title: toHtml   
-	 * @Description: 传来的字符转成 html 文本，遇到“\n”符时，要用<p></p>将这一段
-字符包起来。 
+	 * @Description: 传来的字符转成 html 文本，遇到“\n”符时，要用<p></p>将这一段字符包起来。 
 	 * @return
 	 * @return: String
 	 */
@@ -27,7 +25,6 @@ public class StringUtil {
 	
 	
 	/**
-	 * 
 	 * @Title: isPhoneNumber 
 	 * @Description: 正则验证是否是手机号
 	 * @param number
