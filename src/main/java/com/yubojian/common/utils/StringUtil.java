@@ -25,13 +25,13 @@ public class StringUtil {
 	
 	
 	/**
-	 * @Title: isPhoneNumber 
+	 * @Title: isPhone 
 	 * @Description: 正则验证是否是手机号
 	 * @param number
 	 * @return
 	 * @return: boolean
 	 */
-	public static boolean isPhoneNumber(String number) {
+	public static boolean isPhone(String number) {
 		//如果为空则返回false
 		  if(!hasText(number))
 			  return false;
