@@ -26,7 +26,10 @@ public class DateUtilTest {
 	@Test
 	public void testgetDateByMonthSub() {
 		Date date = DateUtil.getDateByMonthSub(new Date(), 3);
-		System.out.println(date);
+		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		String string = df.format(date);
+
+		System.out.println(string);
 	}
 
 	@Test
