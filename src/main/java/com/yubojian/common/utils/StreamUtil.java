@@ -7,6 +7,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 
+
 public class StreamUtil {
 
 	
@@ -63,4 +64,9 @@ public class StreamUtil {
 		
 		
 	}
+	/*
+	 * @RunWith(SpringJUnit4ClassRunner.class)
+	 * 
+	 * @ContextConfiguration(locations = "classpath:spring-beans.xml")
+	 */
 }
