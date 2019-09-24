@@ -1,6 +1,5 @@
 package com.yubojian.common.utils;
 
-import static org.junit.Assert.*;
 
 import org.junit.Test;
 
@@ -8,6 +7,8 @@ public class RandomUtilTest {
 
 	@Test
 	public void testRandom() {
+		int random = RandomUtil.random(0, 5);
+		System.out.println(random);
 	}
 
 	@Test
